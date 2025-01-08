@@ -1,0 +1,6 @@
+NAME            PROGRAM9
+CODE            PRELOAD MOVEABLE
+DATA            PRELOAD MOVEABLE SINGLE
+HEAPSIZE        4096               
+STACKSIZE       20120
+

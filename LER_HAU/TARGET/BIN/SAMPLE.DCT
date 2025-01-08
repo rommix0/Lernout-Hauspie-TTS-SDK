@@ -1,0 +1,20 @@
+[Header]
+Dictionary Name=Mydic.dct
+Language=American English
+Algorithm=
+Data Type=ANSI           
+Date=
+Description=Sample user dictionary
+[Data]
+info            Information
+IT              Information Technology
+DLL             Dynamic Link Library
+A-level         advanced level
+Afr             africa
+acc             account
+TEL             telephone
+anon            anonymous
+AP              associated press
+addr            //'‘-drEs
+adm             //$d-`mI-n$-'strJ-S$n
+

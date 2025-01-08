@@ -1,0 +1,14 @@
+This is the fourth LHS sample program.
+This program illustrates how you can play back a file.
+It also shows some integrated TTS. 
+
+For example:
+
+Select a text and play it back.
+Then edit the text and save your changes.
+Have the program read your text once again.
+
+As you will see, you don't need to quit your program 
+for the changes to take effect.
+
+Good luck.

@@ -1,0 +1,145 @@
+//Microsoft Developer Studio generated resource script.
+//
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "program3.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+PROGRAMICON             ICON    DISCARDABLE     "LHSBLUE.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+PROGRAM3 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Exit",                       IDM_F_EXIT
+    END
+    POPUP "&TTS"
+    BEGIN
+        MENUITEM "&Speak",                      IDM_T_SPEAK
+        MENUITEM "&Generate",                   IDM_T_GENERATE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&How to use",                 IDM_H_USE
+        MENUITEM "&About",                      IDM_H_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  21, 23, 181, 159
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About L&H TTS Sample Program"
+FONT 8, "Helv"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,69,114,40,14
+    LTEXT           "Program Version",IDC_STATIC,18,17,75,9
+    ICON            "PROGRAMICON",103,79,84,18,20
+    LTEXT           "4.00",ID_SAMPLE,103,17,34,9
+    LTEXT           "Language",IDC_STATIC,18,35,75,8
+    LTEXT           "Language",ID_LANGUAGE,103,35,71,9
+    LTEXT           "Country",IDC_STATIC,18,44,75,8
+    LTEXT           "Country",ID_COUNTRY,103,44,34,8
+    LTEXT           "Coding Scheme",IDC_STATIC,18,53,75,8
+    LTEXT           "Coding",ID_CODING,103,53,34,8
+    LTEXT           "Speaker Number",IDC_STATIC,18,62,75,8
+    LTEXT           "Number",ID_NUMBER,103,62,34,8
+    LTEXT           "Version",ID_COMPONENT,18,26,75,9
+    LTEXT           "Version",ID_PRODUCTVERSION,103,26,34,9
+    CTEXT           "Copy right",ID_COPYRIGHT,25,132,128,9
+    CTEXT           "Manufacturer",ID_MANUFACTURER,26,145,128,9,SS_NOPREFIX
+END
+
+3000 DIALOG DISCARDABLE  14, 40, 202, 88
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Generating PCM Data File"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "The system is generating a PCM data file .............",
+                    -1,18,26,162,12
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""program3.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_REGISTER_CLASS  "Error registering window class"
+    IDS_ERR_CREATE_WINDOW   "Window creation failed!"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,8 @@
+NAME            PROGRAM4
+CODE            PRELOAD MOVEABLE
+DATA            PRELOAD MOVEABLE SINGLE
+HEAPSIZE        10240      
+STACKSIZE       5120
+EXPORTS         WndProc          @1
+                About          @2
+

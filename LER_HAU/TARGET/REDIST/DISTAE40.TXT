@@ -1,0 +1,86 @@
+Distributing applications using L&H TTS32 SDK
+=============================================
+
+To distribute your application using the L&H TTS32 SDK, follow 
+the recomended procedure below:
+
+     - The files, TTSMGR32.DLL and TTSDCT32.DLL are strongly recommended
+       to be installed in the <WINDOWS dir>\LHSP.
+
+     - The ENG_UL32.DLL is strongly recommended to be installed in the
+       <WINDOWS dir>\LHSP\G2P.
+
+     - The ENG_U232.DLL is strongly recommended to be installed in the
+       <WINDOWS dir>\LHSP\LANGUAGE.
+
+     - The ENG_USA2.C22 is strongly recommended to be installed in the
+       <WINDOWS dir>\LHSP\DATAFILE.
+
+     - The directory <WINDOWS dir>\LHSP must be added to the PATH in the
+       AUTOEXEC.BAT (for Windows 95), or in the system environment 
+       (for Windows NT). Or this path must be added to the application 
+       specific path (ONLY valid in Windows 95). 
+
+     - Register information concerning the L&H TTS32 SDK files into the
+       Registry database.
+
+
+The files to be registered into the registry data base are as follows:
+
+	- ENG_U232.DLL
+	- ENG_UL32.DLL
+	- ENG_USA2.C22
+	- TTSDCT32.DLL
+
+
+Each file requires different information to be registered:
+
+* ENG_U232.DLL
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\TTS\Engines
+Name	: "American English$V4.00"
+Data	: <windows dir>\LHSP\LANGUAGE\ENG_U232.DLL
+
+
+* ENG_USA2.C22
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\TTS\Data
+Name	: "American English$V4.00"
+Data	: <windows dir>\LHSP\DATAFILE\ENG_USA2.C22
+
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\G2P\ENG_USA\V1.00
+Name	: "Name"
+Data	: <windows dir>\LHSP\G2P\ENG_UL32.DLL
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\G2P\ENG_USA\V1.00
+Name	: "Language"
+Data	: "American English"
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\G2P\ENG_USA\V1.00
+Name	: "Original Language"
+Data	: "American English"
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\G2P\ENG_USA\V1.00
+Name	: "TTS Version"
+Data	: "V4.00"
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\G2P\ENG_USA\V1.00
+Name	: "Current Version"
+Data	: "1.00"
+
+
+* TTSDCT32.DLL
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\Common
+Name	: "UDCT Version"
+Data	: "4.00"
+
+Sub-key	: HKEY_LOCAL_MACHINE\SOFTWARE\L&H\Common
+Name	: "User Dictionary Engine"
+Data	: <windows dir>\LHSP\TTSDCT32.DLL
+
+
+For an example, look at the registry data base after installing
+the L&H TTS32 SDK.  See also L&H TTS32 SDK manual.
+

@@ -1,0 +1,8 @@
+NAME            PROGRAM2
+CODE            PRELOAD MOVEABLE
+DATA            PRELOAD MOVEABLE SINGLE
+HEAPSIZE        4096   
+STACKSIZE       5120
+EXPORTS         MainWndProc         @1
+                About          		@2
+

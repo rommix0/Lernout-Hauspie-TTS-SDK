@@ -1,0 +1,37 @@
+    *f
+    Hello!
+    Welcome to Lernout & Hauspie's TTS Evaluator.  This Evaluator is a
+    windows program, based on Lernout & Hauspie's TTS system, which
+    is designed to read any text.  A clear human voice reads the text
+    directly from your keyboard or from file.  The TTS conversion is
+    based on state of the art technology from Lernout & Hauspie.
+
+    The speech output can be controlled in terms of volume, pitch and
+    speech rate.
+    *V9 The volume can either be loud, *V2 or it can be very soft.
+    *F It's *"up to *"you.
+    *I9 The pitch can be very high. *I1 And it can be low too.
+    *F Depending on your preference.
+    *R1 The speech rate can be very slow. *R9 Or very fast.
+    *F Whatever the user *"prefers.
+
+    Apart from changing volume, pitch and rate, the TTS Evaluator shows a high
+    flexibility in choosing different speakers and generating tones.
+    *S9 This is speaker 9. *S5 This is speaker 5. *S2 And speaker 2.
+    *F Depending on the voice characteristics needed.
+    Also, generating beep tones is no problem:
+    *w1*b0*b1*b2*b3*b4*b5*b6*b7*b8*b9.     *f
+    Even DTMF tones are supported: *w1*t1*t3*t5*t7*t9.
+    *f If requested, the system can spell the text.
+    *m0 *w1 Evaluator, *f Evaluator.
+    The user can also manipulate the accent structure.
+    John is coming *"tomorrow. *"John is coming tomorrow.
+    *f The system can split the text up into textlines or sentences.
+    Special intonation rules are used to create natural sounding speech output.
+    Abbreviations, dates, currencies: they are no problem for the TTS Evaluator.
+    *m3 e.g.: 05/03/93, $1,500 or 100 DM
+    *f
+    Have fun and thank you for using Lernout & Hauspie's TTS Evaluator.
+    Bye-bye.
+    *f
+

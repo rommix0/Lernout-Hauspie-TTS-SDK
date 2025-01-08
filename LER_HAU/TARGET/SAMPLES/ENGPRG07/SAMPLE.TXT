@@ -1,0 +1,3 @@
+This is a sample program demonstrating how you can interrupt TTS while it is speaking.
+If you want to stop TTS, just click the stop button.
+
